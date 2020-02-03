@@ -193,6 +193,8 @@ html * {
   /*-webkit-transform: translate3d(0, 0, 0);*/
   /*-moz-transform: translate3d(0, 0, 0);*/
   overflow: hidden;
+  -webkit-transform: translateZ(0) !important;
+
   /*transition: 0.2s ease-in-out background-color, 0.2s ease-in-out color;*/
 }
 .floating-button video {
