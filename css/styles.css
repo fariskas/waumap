@@ -241,6 +241,10 @@ html * {
 }
 
 
+#buttonsViewport > div {
+  border-radius: 50%;
+  overflow: hidden;
+}
 
 .year_alert, .address_alert {
   display: none;
