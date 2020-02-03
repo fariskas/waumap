@@ -188,12 +188,12 @@ html * {
   font-family: 'Ginto Nord';
   color: white;
   border-radius: 50%;
-  -webkit-backface-visibility: hidden;
+  /*-webkit-backface-visibility: hidden;*/
   /*-moz-backface-visibility: hidden;*/
-  -webkit-transform: translate3d(0, 0, 0);
+  /*-webkit-transform: translate3d(0, 0, 0);*/
   /*-moz-transform: translate3d(0, 0, 0);*/
   overflow: hidden;
-  transition: 0.2s ease-in-out background-color, 0.2s ease-in-out color;
+  /*transition: 0.2s ease-in-out background-color, 0.2s ease-in-out color;*/
 }
 .floating-button video {
   position: absolute;
@@ -242,8 +242,8 @@ html * {
 
 
 #buttonsViewport > div {
-  border-radius: 50%;
-  overflow: hidden;
+  /*border-radius: 50%;*/
+  /*overflow: hidden;*/
 }
 
 .year_alert, .address_alert {
